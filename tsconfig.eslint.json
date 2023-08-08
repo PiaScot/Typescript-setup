@@ -3,5 +3,5 @@
   "compilerOptions": {
     "allowJs": true
   },
-  "include": ["src", ".*.js", "jest.config.js"]
+  "include": ["src", "test", ".*.js", "jest.config.js"]
 }

@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["esnext", "dom", "dom.iterable"],
     "module": "commonjs",
     "outDir": "./build",
     "esModuleInterop": true,
@@ -13,7 +9,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*", "test/**/*"]
 }
